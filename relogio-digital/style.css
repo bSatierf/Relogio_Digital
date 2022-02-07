@@ -1,0 +1,258 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@200&family=Neonderthaw&family=Satisfy&family=Tourney:ital,wght@1,100&family=Vibur&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Sacramento&family=Yellowtail&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(58, 54, 77);
+    background-color: #010a01;
+    /*background-image: url(./jr-korpa-9XngoIpxcEo-unsplash.jpg);*/
+    background-size: cover;
+    background-position: center center;
+    background-blend-mode: screen, saturation, hue;
+    color: white;
+    font-family: 'Alumni Sans', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+h2 {
+    font-family: 'Bad Script', cursive;
+    font-size: 3.6em;
+    position: relative;
+    display: block;
+    margin: -190px 0 150px;
+    font-style: italic;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #FFF;
+    text-shadow: 
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #bc13fe,
+      0 0 82px #bc13fe,
+      0 0 92px #bc13fe,
+      0 0 102px #bc13fe,
+      0 0 151px #bc13fe;
+    /*text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #f09,
+      0 0 82px #f09,
+      0 0 92px #f09,
+      0 0 102px #f09,
+      0 0 151px #f09;*/
+      animation: pulsate 1.5s ease-in-out infinite alternate;
+}
+
+#base #clock {
+    position: relative;
+    display: flex;
+    transform: scale(2);
+    padding: 15px;
+}
+
+#base #clock div {
+    position: relative;
+    margin:  0 5px;
+    /*-webkit-box-reflect: below 1px linear-gradient(transparent, #0004);*/
+}
+
+
+h5 {  
+    
+    font-style: solid;
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #bc13fe,
+    0 0 62px #bc13fe,
+    0 0 72px #bc13fe,
+    0 0 82px #bc13fe,
+    0 0 92px #bc13fe;
+    
+}
+
+.time  span{
+    font-size: 1.7em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 75px;
+    height: 55px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    border-radius: 14px 13px 0 0;
+    background: #0b468c;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .2);
+    z-index: 9;
+}
+
+
+.time {
+    position: relative;
+    display: block;
+    align-items: center;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 15px;
+    margin: 0 5px;
+    box-shadow: 
+    0 0 .2rem #C0BFC1,
+    0 0 .2rem #C0BFC1,
+    0 0 2rem #20B4D8,
+    0 0 0.8rem #20B4D8,
+    0 0 2.8rem #20B4D8,
+    inset 0 0 1.3rem #20B4D8;
+    z-index: 10;
+    /*#bc13fe*/
+    
+}
+
+#time-seconds {
+    border: 3px solid #fff;
+    border-radius: 15px;
+    margin: 0 5px;
+    box-shadow: 
+    0 0 .2rem #BA0B7E,
+    0 0 .2rem #BA0B7E,
+    0 0 2rem #E528A2,
+    0 0 0.8rem #E528A2,
+    0 0 2.8rem #E528A2,
+    inset 0 0 1.3rem #E528A2;
+    z-index: 10;
+    filter: brightness(1.1);
+}
+
+
+
+
+
+span:nth-child(2) {
+    height: 5px;
+    font-size: 0.7em;
+    letter-spacing: 0.2em;
+    font-weight: solid;
+    border-radius: 0 0 15px 15px;
+    background: #0b468c;
+} 
+
+
+#clock div:last-child span {
+    background: #bc13fe;
+}
+
+#clock div:last-child span:nth-child(2) {
+    background: #9531bd;
+}
+
+
+
+
+footer {
+    color: #FFF;
+    font-size: 1.5em;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+/*@keyframes pulsate {
+    
+    100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #f09,
+        0 0 80px #f09,
+        0 0 90px #f09,
+        0 0 100px #f09,
+        0 0 150px #f09;
+    
+    }
+    
+    0% {
+  
+      text-shadow:
+      0 0 4px #fff,
+      0 0 10px #fff,
+      0 0 18px #fff,
+      0 0 38px #f09,
+      0 0 73px #f09,
+      0 0 80px #f09,
+      0 0 94px #f09,
+      0 0 140px #f09;
+  
+ }*/
+
+ 
+
+@keyframes pulsate {
+    100% {
+        text-shadow: 
+        0 0 10px #fff,
+        0 0 20px #fff,
+        0 0 30px #fff,
+        0 0 40px #bc13fe,
+        0 0 70px #bc13fe,
+        0 0 80px #bc13fe,
+        0 0 100px #bc13fe,
+        0 0 150px #bc13fe;
+
+        /*text-shadow: 
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #bc13fe,
+        0 0 80px #bc13fe,
+        0 0 90px #bc13fe,
+        0 0 100px #bc13fe,
+        0 0 150px #bc13fe;*/
+    }  
+
+    0% {
+        text-shadow: 
+        0 0 4px #fff,
+        0 0 10px #fff,
+        0 0 15px #fff,
+        0 0 20px #bc13fe,
+        0 0 35px #bc13fe,
+        0 0 40px #bc13fe,
+        0 0 50px #bc13fe,
+        0 0 75px #bc13fe
+
+        /*text-shadow: 
+        0 0 4px #fff,
+        0 0 10px #fff,
+        0 0 18px #fff,
+        0 0 38px #bc13fe,
+        0 0 73px #bc13fe,
+        0 0 80px #bc13fe,
+        0 0 94px #bc13fe,
+        0 0 140px #bc13fe;*/
+    }  
+}
