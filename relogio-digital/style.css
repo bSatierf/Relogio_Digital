@@ -15,7 +15,6 @@
 body {
     background: rgb(58, 54, 77);
     background-color: #010a01;
-    /*background-image: url(./jr-korpa-9XngoIpxcEo-unsplash.jpg);*/
     background-size: cover;
     background-position: center center;
     background-blend-mode: screen, saturation, hue;
@@ -51,15 +50,6 @@ h2 {
       0 0 92px #bc13fe,
       0 0 102px #bc13fe,
       0 0 151px #bc13fe;
-    /*text-shadow:
-      0 0 7px #fff,
-      0 0 10px #fff,
-      0 0 21px #fff,
-      0 0 42px #f09,
-      0 0 82px #f09,
-      0 0 92px #f09,
-      0 0 102px #f09,
-      0 0 151px #f09;*/
       animation: pulsate 1.5s ease-in-out infinite alternate;
 }
 
@@ -73,7 +63,6 @@ h2 {
 #base #clock div {
     position: relative;
     margin:  0 5px;
-    /*-webkit-box-reflect: below 1px linear-gradient(transparent, #0004);*/
 }
 
 
@@ -126,7 +115,6 @@ h5 {
     0 0 2.8rem #20B4D8,
     inset 0 0 1.3rem #20B4D8;
     z-index: 10;
-    /*#bc13fe*/
     
 }
 
@@ -178,39 +166,6 @@ footer {
 }
 
 
-
-/*@keyframes pulsate {
-    
-    100% {
-  
-        text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #f09,
-        0 0 80px #f09,
-        0 0 90px #f09,
-        0 0 100px #f09,
-        0 0 150px #f09;
-    
-    }
-    
-    0% {
-  
-      text-shadow:
-      0 0 4px #fff,
-      0 0 10px #fff,
-      0 0 18px #fff,
-      0 0 38px #f09,
-      0 0 73px #f09,
-      0 0 80px #f09,
-      0 0 94px #f09,
-      0 0 140px #f09;
-  
- }*/
-
- 
-
 @keyframes pulsate {
     100% {
         text-shadow: 
@@ -223,15 +178,6 @@ footer {
         0 0 100px #bc13fe,
         0 0 150px #bc13fe;
 
-        /*text-shadow: 
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
-        0 0 40px #bc13fe,
-        0 0 80px #bc13fe,
-        0 0 90px #bc13fe,
-        0 0 100px #bc13fe,
-        0 0 150px #bc13fe;*/
     }  
 
     0% {
@@ -245,14 +191,5 @@ footer {
         0 0 50px #bc13fe,
         0 0 75px #bc13fe
 
-        /*text-shadow: 
-        0 0 4px #fff,
-        0 0 10px #fff,
-        0 0 18px #fff,
-        0 0 38px #bc13fe,
-        0 0 73px #bc13fe,
-        0 0 80px #bc13fe,
-        0 0 94px #bc13fe,
-        0 0 140px #bc13fe;*/
     }  
 }
